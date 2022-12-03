@@ -58,6 +58,10 @@ width: 80%;
 .innerT {
   background-color: #e1c396;
   color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 th, td {
@@ -83,6 +87,30 @@ td.winner {
 }
 tr:nth-child(even) {
   background-color: #ffffff;
+}
+
+/*dont show the class show*/
+.show {
+  display: none;
+}
+
+/*make an giratori animation for losers*/
+td.loser {
+  font-weight: bold;
+  color: red;
+  animation: giratori 1s infinite;
+}
+
+@keyframes giratori {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    scale: 2.25;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes pulse {
