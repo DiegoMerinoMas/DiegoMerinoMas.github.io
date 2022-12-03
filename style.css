@@ -53,6 +53,12 @@ border-collapse: collapse;
 width: 80%;
 }
 
+/*use the inverse colors for the innerT class*/
+.innerT {
+  background-color: #e1c396;
+  color: #black;
+}
+
 th, td {
   padding: 10px;
   border: 3px solid #8d1c3d;
@@ -83,9 +89,24 @@ tr:nth-child(even) {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.5);
+    transform: scale(2.25);
   }
   100% {
     transform: scale(1);
   }
 }
+
+/*make an animation for the table of winner, the animation need shake the table*/
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
