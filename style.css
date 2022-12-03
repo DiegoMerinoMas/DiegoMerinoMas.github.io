@@ -68,6 +68,7 @@ td {
   text-align: center;
 }
 
+
 td.winner {
   font-weight: bold;
   color: green;
@@ -82,7 +83,7 @@ tr:nth-child(even) {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.5);
   }
   100% {
     transform: scale(1);
