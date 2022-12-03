@@ -169,3 +169,7 @@ td.loser {
   animation-iteration-count: infinite;
 }
 
+/*Apply giratori to image wiht id rote*/
+#rote {
+  animation: giratori 1s infinite;
+}
