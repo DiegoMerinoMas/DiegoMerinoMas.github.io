@@ -56,7 +56,7 @@ width: 80%;
 /*use the inverse colors for the innerT class*/
 .innerT {
   background-color: #e1c396;
-  color: #black;
+  color: black;
 }
 
 th, td {
