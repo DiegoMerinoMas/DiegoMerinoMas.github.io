@@ -100,16 +100,18 @@ td.loser {
   font-weight: bold;
   color: red;
   animation: giratori 1s infinite;
+  scale: 1.5;
 }
 
 @keyframes giratori {
   0% {
     transform: rotate(0deg);
   }
-  100% {
+  100% {   
     transform: rotate(360deg);
   }
 }
+
 
 @keyframes pulse {
   0% {
